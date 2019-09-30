@@ -6,7 +6,7 @@
       <div class="card-body">
       <h5>Gloucester — October 2018 - October 2019</h5>
       <p>At Raytheon I worked in a team that utilised AWS to produce QuickSight visualisations allowing the client to analyse their data. To most effectively present the data, we used Athena to analyse and understand the S3 data we had been given. Once we had understood the data, we ran a Glue crawler on it to produce tables that allowed us to view it on Athena and more effectively interact with QuickSight, opposed to using purely CSV data. We performed Further work on the data which consisted of using Python’s Sci-Kit Learn library on Jupyter Notebooks to explore the data more thoroughly.</p>
-      </br>
+      <br>
       <p>I joined a different team in Raytheon in March. In this team we were tasked ingesting big data and making it available to multiple end users. We used Azure as our cloud service provider and created an Elasticsearch cluster capable of handling an ingest rate of 150k documents per second. One of the key responsibilities I took on was to manage the cluster and spent my time maintaining, optimising and reducing costs. I eventually became the ‘Guru’ of the cluster and the team would consult with me about the best course of action to take when making changes. We exposed this data up using Azures APIM and Functions following the best security practices.</p>
       <ul>
         <li>Java, Python, Javascript</li>
