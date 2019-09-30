@@ -2,139 +2,38 @@
   <div>
     <h2 class="experience">Experience</h2>
     <div class="card">
-      <h3 class="card-title">Senior Software Engineer, Forgerock</h3>
+      <h3 class="card-title">Software Engineer, Raytheon</h3>
       <div class="card-body">
-      <h5>Bristol — September 2018 - current</h5>
-      <p>Forgerock develops the reference sandbox implementation for Open Banking at https://directory.ob.forgerock.financial. Forgerock as an OIDC expert leverages it’s own OIDC stack to implement FAPI standard APIs. This evolved into building a SaaS offering for banks to hit the PSD2 deadlines https://www.forgerock.com/open-banking-sandbox . We leveraged CI/CD best practices along with Kubernetes as a platform to deploy microservices. We support the community that uses the sandbox via the official open banking slack channel.</p>
+      <h5>Gloucester — October 2018 - October 2019</h5>
+      <p>At Raytheon I worked in a team that utilised AWS to produce QuickSight visualisations allowing the client to analyse their data. To most effectively present the data, we used Athena to analyse and understand the S3 data we had been given. Once we had understood the data, we ran a Glue crawler on it to produce tables that allowed us to view it on Athena and more effectively interact with QuickSight, opposed to using purely CSV data. We performed Further work on the data which consisted of using Python’s Sci-Kit Learn library on Jupyter Notebooks to explore the data more thoroughly.</p>
+      </br>
+      <p>I joined a different team in Raytheon in March. In this team we were tasked ingesting big data and making it available to multiple end users. We used Azure as our cloud service provider and created an Elasticsearch cluster capable of handling an ingest rate of 150k documents per second. One of the key responsibilities I took on was to manage the cluster and spent my time maintaining, optimising and reducing costs. I eventually became the ‘Guru’ of the cluster and the team would consult with me about the best course of action to take when making changes. We exposed this data up using Azures APIM and Functions following the best security practices.</p>
       <ul>
-        <li>Java, Kotlin, Spring</li>
-        <li>Angular, Typescript</li>
-        <li>Codefresh, Travis, Github, Postman</li>
-        <li>MongoDB</li>
-        <li>Docker, Kubernetes, GCP</li>
-        <li>OAuth2, OIDC, JOSE, FAPI, Open Banking UK</li>
-        <li>ForgeRock stack</li>
+        <li>Java, Python, Javascript</li>
+        <li>React</li>
+        <li>Jenkins, Github, Postman</li>
+        <li>Elasticsearch</li>
+        <li>Docker, Kubernetes</li>
       </ul>
     </div>
     <div>
-      <h3 class="card-title">Senior Software Engineer, ONS</h3>
+      <h3 class="card-title">Software Developer, Ian Williams</h3>
       <div class="card-body">
-      <h5>Newport — October 2017 - September 2018</h5>
+      <h5>Newport — June 2017 - October 2018</h5>
+      <p>At Ian Williams I worked in a team which allowed clients to place orders in our system in a format they preferred, such as PDF or XML. It would then be our job to extract the data to allow it to integrate with our systems. This model was chosen as it reduced the complexity for the client to integrate with our systems. As a side project while working there, I made an error tracking web application which incorporated bootstrap on the frontend, a Java-based RESTful web service and a MSSQL backend. This application informed users on how to resolve errors they may come across through day-to-day use. If any new errors were found, it also allows users to submit new errors to the system and once a fix was found, allow it to be updated for future reference.</p>
       <ul>
-        <li>Python, Java, GoLang</li>
-        <li>Flask, SQLAlchemy, WTForms, Jinja, Spring</li>
-        <li>Concourse, Travis, Codacy, Github</li>
-        <li>Postgres, RabbitMQ, Redis</li>
-        <li>AWS, Docker, Cloudfoundry</li>
+        <li>Java, Javascript</li>
+        <li>React, AngularJS, Spring</li>
+        <li>Jenkins, SVN</li>
+        <li>SQL</li>
       </ul>
     </div>
     </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Senior Software Engineer, Royal Bank of Scotland</h3>
+    <div>
+      <h3 class="card-title">Projects</h3>
       <div class="card-body">
-      <h5>Bristol — April 2017 - October 2017</h5>
-      <p>Royal Bank of Scotland is currently redesigning its corporate and private banking platform. The corporate and banking application supports the UK’s largest businesses in making financial transactions. The webapp is being rewritten as a single page application utilising modern designs with a scalable microservice architecture.</p>
-      <ul>
-        <li>Java, Javascript (ES6)</li>
-        <li>React, Babel, Webpack</li>
-        <li>Tomcat, Spring</li>
-        <li>Teamcity, Stash</li>
-      </ul>
+      <p>In my spare time, I like to improve my abilities. I have done this through contributing to open-source projects and also my own. I have been contributing to a project, called Nanotify. This service notifies users of any incoming or pending transactions using the Nano cryptocurrency coin by sending users an email. The project has been extended to mobile devices now, which has been written in React Native to allow for maximal cross platform usage. </p>
     </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Senior Software Engineer, ONS</h3>
-      <div class="card-body">
-      <h5>Newport — September 2016 - April 2017</h5>
-      <p>Office of National Statistics produces official statistics for the UK. The project I have been working on is a survey application which is being used to ingest data for statistical analysis. The survey application is configurable via an authoring tool to allow easy on-boarding of new surveys. The application has been designed to be secure and scalable. Data is encrypted at rest and can only be decrypted when interacting with the user. The survey applications needs to scale to the size of the nation as it will host the next official Census in which the nation will complete the survey online. The application is completely open source and can be found here https://github.com/ONSdigital/eq-survey-runner.</p>
-      <ul>
-        <li>Python</li>
-        <li>Docker, Terraform</li>
-        <li>Flask, SQLAlchemy, WTForms, Jinja</li>
-        <li>Travis, Codacy, Github</li>
-        <li>Postgres, RabbitMQ</li>
-        <li>AWS</li>
-      </ul>
-    </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Senior Big Data Engineer, UKHO - SC Cleared</h3>
-      <div class="card-body">
-      <h5>Taunton— February 2016 - August 2016</h5>
-      <p>United Kingdom Hydrographic Office is a leader in the marine nautical charting industry with a wealth of marine data. The greenfield project I have been involved in enables UKHO to analyse their data to achieve further insights with the potential to provide additional products and services. The data harvested amounts to terabytes of sensory and geospatial data. Continuous delivery at the press of a button is a key aspect to enable fast iterations resulting in faster data analysis. Mentoring and upskilling other members of the team in technical and agile aspects. Researching technologies and performing presentations of research.</p>
-      <ul>
-        <li>Hadoop, Oozie, Hive, MapReduce</li>
-        <li>Docker, Ansible</li>
-        <li>J2EE, JDK8</li>
-        <li>Spark</li>
-        <li>Elasticsearch</li>
-        <li>AWS</li>
-      </ul>
-    </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Java Developer, Landmark Solutions</h3>
-      <div class="card-body">
-      <h5>Exeter — August 2015- Feburary 2016</h5>
-      <p>Landmark Solutions is collaborating in a government initiated project called Floodre which is an insurance integration system for high flood risk properties. I collaborated in an agile team of 12 including developers, testers, BA’s and product owner. The outcome of the project was a maintainable, automatically tested and deployed array of microservices and web application.</p>
-      <ul>
-        <li>Docker</li>
-        <li>J2EE, JDK8, Dropwizard, Hibernate, Spring, Selenium</li>
-        <li>Postgres</li>
-        <li>SOAP, REST</li>
-        <li>AngularJS, Bootstrap</li>
-      </ul>
-    </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Java Integrations Developer, Anatwine Ltd</h3>
-      <div class="card-body">
-      <h5>Cheltenham — April 2015 - August 2015</h5>
-      <p>Anatwine is a leading integration platform integrating the world’s largest fashion brands to the largest fashion retailer. The platform is super flexible and can be easily integrated with using exposed APIs or in-house custom integration applications. Anatwine is hosted in AWS allowing them to leverage technologies such as S3, SQS, DynamoDB and scalable virtual instances.</p>
-      <ul>
-        <li>MuleESB</li>
-        <li>J2EE, JDK8</li>
-        <li>AWS (S3, SQS, DynamoDB)</li>
-        <li>JMS</li>
-        <li>Postgres</li>
-        <li>SOAP</li>
-        <li>AngularJS, Bootstrap</li>
-      </ul>
-    </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Software Engineer, Gresham Computing PLC</h3>
-      <div class="card-body">
-      <h5>Bristol — June 2013 - April 2015</h5>
-      <p>
-        Gresham Computing plc is a leading software and services company that specialises in providing real-time financial transaction control solutions to the global matching and reconciliation market. The reconciliation software has evolved to become web-based and I have played a key part in designing, developing, and documenting a RESTful API to serve a highly available, asynchronous web client where performance, scalability and security is essential. A part of development meant manipulating and enhancing pre-existing back-end services to best serve the RESTful tier. Automated testing is vital which meant Acceptance test, Integration test, and Unit tests had to be written for all code/new features.
-        <br />Due to tight deadlines and high demand for the product I was approached by the CTO to be a part of a rapid response team which meant working on-site in Singapore for 2 weeks to triage issues as they came in and do upfront analysis to give immediate feedback to customers. Since then I have assisted one of our largest customers in their go live process onsite in Chennai, India.
-      </p>
-      <ul>
-        <li>Various database support (H2,Oracle,MsSQL, Gigaspaces)</li>
-        <li>Spring core, MVC, Security</li>
-        <li>J2EE</li>
-        <li>REST</li>
-        <li>HTML, Javascript, CSS, AJAX</li>
-      </ul>
-    </div>
-    </div>
-    <div class="card">
-      <h3 class="card-title">Java Developer, Nominet</h3>
-      <div class="card-body">
-      <h5>Oxford— August 2011 - June 2013</h5>
-      <p>
-        Whilst working at Nominet I was part of the growing ‘Operational Applications’ team. As a team we were responsible for supporting, designing, developing and deploying Nominet's core registry services used to support 10+ million domains in the .uk registry.
-        <br />I led a project to deliver a scalable, high throughput system used to persist over 30 million records of data a month, allowing the user to query for results in milliseconds. The product was used for Nominet's support team to be able to aid customers in inquiries.
-      </p>
-      <ul>
-        <li>Swing/AWT</li>
-        <li>Spring, Hibernate, Junit</li>
-        <li>Elasticsearch, Oracle</li>
-        <li>REST</li>
-        <li>HTML, Javascript, CSS, jQuery, Bootstrap</li>
-      </ul>
     </div>
     </div>
   </div>

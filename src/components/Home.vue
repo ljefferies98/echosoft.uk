@@ -4,7 +4,7 @@
     <b-container>
       <b-row class="text-center logo-block" v-bind:style="{ marginTop: '55vh' }">
         <b-col>
-          <h1 class="logo"><a href="mailto:website@echosoft.uk">echosoft</a></h1>
+          <h1 class="logo"><a href="mailto:info@volrix.co.uk">Volrix</a></h1>
           <h5 class="slogan"><strong>Manufacturing software that is out of this world.</strong></h5>
         </b-col>
       </b-row>

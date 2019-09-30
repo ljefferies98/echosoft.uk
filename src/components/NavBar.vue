@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar class="navbar" toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="#" class="brand">echosoft</b-navbar-brand>
+      <b-navbar-brand href="#" class="brand">Volrix</b-navbar-brand>
     </b-navbar>
   </div>
 </template>

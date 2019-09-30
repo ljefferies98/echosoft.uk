@@ -21,67 +21,55 @@ export default {
           'Java': [
             {
               name: 'Java',
-              percentage: 95
-            },
-            {
-              name: 'Spring Boot',
-              percentage: 80
-            },
-            {
-              name: 'Spring Framework',
-              percentage: 90
-            },
-            {
-              name: 'Spark Java',
               percentage: 85
             },
             {
+              name: 'Spring Boot',
+              percentage: 70
+            },
+            {
+              name: 'Spring Framework',
+              percentage: 80
+            },
+            {
+              name: 'Spark Java',
+              percentage: 75
+            },
+            {
               name: 'Junit 4',
-              percentage: 95
+              percentage: 85
             },
             {
               name: 'Mockito',
-              percentage: 95
+              percentage: 85
             }
           ],
           'Python': [
             {
               name: 'Python',
-              percentage: 90
+              percentage: 75
             },
             {
               name: 'Flask',
-              percentage: 90
-            },
-            {
-              name: 'SQL Alchemy',
-              percentage: 85
-            },
-            {
-              name: 'Django',
               percentage: 75
             },
             {
               name: 'pytest',
-              percentage: 90
-            },
-            {
-              name: 'Jinja',
-              percentage: 90
+              percentage: 70
             }
           ],
           'Web': [
             {
               name: 'React',
-              percentage: 80
-            },
-            {
-              name: 'VueJS',
               percentage: 75
             },
             {
+              name: 'VueJS',
+              percentage: 70
+            },
+            {
               name: 'Bootstrap',
-              percentage: 85
+              percentage: 80
             },
             {
               name: 'Angular',
@@ -89,21 +77,17 @@ export default {
             },
             {
               name: 'REST',
-              percentage: 95
+              percentage: 85
             }
           ],
           'Database': [
             {
-              name: 'Postgres',
-              percentage: 90
-            },
-            {
               name: 'MongoDB',
-              percentage: 80
+              percentage: 75
             },
             {
               name: 'DynamoDB',
-              percentage: 85
+              percentage: 80
             },
             {
               name: 'ElasticSearch',
@@ -113,67 +97,29 @@ export default {
           'Devops': [
             {
               name: 'Kubernetes',
-              percentage: 90
+              percentage: 80
             },
             {
               name: 'Docker',
-              percentage: 90
-            },
-            {
-              name: 'Concourse',
-              percentage: 90
-            },
-            {
-              name: 'Travis',
-              percentage: 90
+              percentage: 80
             },
             {
               name: 'Jenkins',
               percentage: 80
             },
             {
-              name: 'Ansible',
-              percentage: 80
-            },
-            {
               name: 'Terraform',
-              percentage: 85
+              percentage: 75
             }
           ],
           'Cloud': [
             {
               name: 'AWS',
-              percentage: 90
-            },
-            {
-              name: 'GCP',
-              percentage: 85
-            },
-            {
-              name: 'Digital Ocean',
-              percentage: 75
-            }
-          ],
-          'Big Data': [
-            {
-              name: 'Hadoop',
-              percentage: 85
-            },
-            {
-              name: 'Hive',
               percentage: 75
             },
             {
-              name: 'Pig',
-              percentage: 65
-            },
-            {
-              name: 'Spark',
-              percentage: 75
-            },
-            {
-              name: 'NiFi',
-              percentage: 85
+              name: 'Azure',
+              percentage: 80
             }
           ]
         }

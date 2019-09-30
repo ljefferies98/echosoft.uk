@@ -1,14 +1,14 @@
 <template>
     <div class="text-center">
       <img class="profile-pic" src="../../assets/images/bio.jpg" />
-      <h2>Ben Jefferies</h2>
-      <h5>DevOps Engineer</h5>
+      <h2>Lewis Jefferies</h2>
+      <h5>Software Engineer</h5>
       <div>
-        <b-link href="mailto:>benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
+        <b-link href="mailto:lewisjefferies@volrix.co.uk">lewisjefferies@volrix.co.uk</b-link>
         <br>
-        <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
+        <b-link href="https://www.github.com/ljefferies98">github.com/ljefferies98</b-link>
         <br>
-        <b-link href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</b-link>
+        <b-link href="https://uk.linkedin.com/in/lewis-jefferies-323742147">linkedin.com/lewis-jefferies</b-link>
       </div>
     </div>
 </template>
