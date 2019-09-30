@@ -1,6 +1,7 @@
-# echosoft.uk
+# volrix.uk
+[![Netlify Status](https://api.netlify.com/api/v1/badges/969b7781-0865-4688-9201-ef03f2759d87/deploy-status)](https://app.netlify.com/sites/hungry-stallman-a42310/deploys)
 
-Echosoft Consultancy company site - https://echosoft.uk
+Volrix Ltd company site - https://volrix.co.uk
 
 Built using vue.
 Hosted by netlify
